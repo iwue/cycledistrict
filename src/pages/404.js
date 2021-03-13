@@ -8,6 +8,7 @@ const NotFoundPage = () => (
             <div className="inner">
                 <h1>NOT FOUND</h1>
                 <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+                <p>Sometimes you gotta lose and maybe, just maybe, the next time you try to hit that route - it might be there.</p>
             </div>
         </section>
     </div>
