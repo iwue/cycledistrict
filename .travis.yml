@@ -5,17 +5,13 @@ cache:
   directories:
   - node_modules
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local_dir: public
-  keep-history: true
-  on:
-    branch: master
+  provider: netlify
+  site: competent-booth-2f9f63.netlify.app
+  edge: true 
 before_script:
   - "npm i -g gatsby"
   - "npm i"
 script:
   - "npm run test"
 after_success:
-  - "npm run deploy"
+  - "npm run deploy"  
