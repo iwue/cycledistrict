@@ -24,6 +24,15 @@ module.exports = {
         implementation: require("sass"),
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images\/.*\.svg/, // See below to configure properly
+          omitKeys: ['xmlnsDc', 'xmlnsCc', 'xmlnsRdf', 'xmlnsSvg', 'xmlnsSodipodi', 'xmlnsInkscape']
+        }
+      }
+    },  
     'gatsby-plugin-offline'
   ],
 }
