@@ -19,16 +19,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-nprogress`,
+      resolve: `gatsby-plugin-sass`,
       options: {
-        // Setting a color is optional.
-        color: `red`,
-        // Disable the loading spinner.
-        showSpinner: true,
+        implementation: require("sass"),
       },
     },
-    'gatsby-plugin-sass',
-    'gatsby-plugin-offline',
-    'gatsby-plugin-page-load-delay'
+    'gatsby-plugin-offline'
   ],
 }
