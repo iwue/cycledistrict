@@ -74,14 +74,14 @@
 			max-height: none;
 			min-height: 0;
 		}
-	.wrapperino > spanx:before{
+	#banner > .inner .wrapperino > spanx:before{
 		content: 'for fucks sake.';
 		animation-name: dyntitle;
 		animation-iteration-count: infinite;
 		animation-duration: 10s;
 		animation-timing-function: ease;
 	}
-	@keyframes dyntitle{
+	#banner > .inner @keyframes dyntitle{
 		0%{content: 'CycleDistrict.';}
 		10%{content: 'fast.';}
 		20%{content: 'free.';}
