@@ -8,7 +8,7 @@ const Banner = (props) => (
 	<html lang="en" dir="ltr">
                 <meta charset="utf-8">
     
-                <style>
+                
                     .dyntext:before{
                         content: 'content.';
                         animation-name: mydyntext;
@@ -25,7 +25,7 @@ const Banner = (props) => (
                         40%{content: 'CycleDistrict.';}
                         100%{content: 'CycleDistrict.';}
                     }
-                </style>
+                
                 <h1>ride </h1>
                 <h1 class="dyntext"></h1>
 	</html>
