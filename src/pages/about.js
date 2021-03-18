@@ -41,7 +41,7 @@ class About extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>AzureOrange</h3>
-                                <p>Dragstar Rider</p>
+                                <p>Classic Dragstar Rider</p>
                             </header>
                             <Link to="/ridersazureorange" className="link primary"></Link>
                         </article>
