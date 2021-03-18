@@ -4,7 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic01 from '../assets/images/azureorange_01.jpg'
-import pic02 from '../assets/images/pic01.jpg'
+import pic02 from '../assets/images/devinbrunner_01.jpg'
+import pic03 from '../assets/images/raphaeltruniger_01.jpg'
+import pic99 from '../assets/images/pic01.jpg'
 
 class About extends React.Component {
     render() {
@@ -40,11 +42,28 @@ class About extends React.Component {
                     <section id="three" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>AzureOrange</h3>
+                                <h3>Aaron Züger</h3>
                                 <p>Classic Dragstar Rider</p>
                             </header>
-                            <Link to="/ridersazureorange" className="link primary"></Link>
+                            <Link to="/azureorange" className="link primary"></Link>
                         </article>
+
+                        <article style={{backgroundImage: `url(${pic02})`}}>
+                            <header className="major">
+                                <h3>Devin Brunner</h3>
+                                <p>MT-10 Rider</p>
+                            </header>
+                            <Link to="/burninvender" className="link primary"></Link>
+                        </article>
+
+                        <article style={{backgroundImage: `url(${pic03})`}}>
+                            <header className="major">
+                                <h3>Raphael Truniger</h3>
+                                <p>Unicorn Slider?</p>
+                            </header>
+                            <Link to="/earthlinguprear" className="link primary"></Link>
+                        </article>
+                    
                     </section>
                     <section id="four" className="Titless">
                     <div className="inner">
@@ -52,7 +71,7 @@ class About extends React.Component {
                     </div>
                     </section>
                      <section id="five" className="tiles">
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${pic99})`}}>
                             <header className="major">
                                 <h3>Member</h3>
                                 <p>Mt-07 Rider</p>
