@@ -4,7 +4,7 @@ const Footer = (props) => (
     <footer id="footer">
         <div className="inner">
             <ul className="icons">
-                <li><a href="https://www.instagram.com/cycledistrict_east/" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
+                <li><a href="https://www.instagram.com/cycledistrict_east/" target="_blank" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
             </ul>
             <ul className="copyright">
                 <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
