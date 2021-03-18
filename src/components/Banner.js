@@ -9,11 +9,9 @@ const Banner = (props) => (
             </header>
 	
             <div className="content">
-                <p>
-                A group of young and motivated <b>Motorcyclists</b></br>
-		(EN: <sub>[NOUN] [SINGULAR]</sub> Motorcyclist, IPA: [ˈmoʊtɚˌsaɪ.klɪst]:</br>
-                A person willing to take a container of flammable liquid, place it on top of a hot moving engine and the put the whole lot between their legs.).
-                </p>
+                <p>A group of young and motivated <b>Motorcyclists</b></p>
+		<p>(EN: <sub>[NOUN] [SINGULAR]</sub> Motorcyclist, IPA: [ˈmoʊtɚˌsaɪ.klɪst]:
+                A person willing to take a container of flammable liquid, place it on top of a hot moving engine and the put the whole lot between their legs.).</p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Get Ridin'</a></li>
                 </ul>
