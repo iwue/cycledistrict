@@ -4,6 +4,8 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
+	
+	<html lang="en" dir="ltr">
                 <meta charset="utf-8">
     
                 <style>
@@ -26,6 +28,7 @@ const Banner = (props) => (
                 </style>
                 <h1>ride </h1>
                 <h1 class="dyntext"></h1>
+	</html>
             </header>
             <div className="content">
                 <p>
