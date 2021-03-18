@@ -29,7 +29,6 @@ class Blog extends React.Component {
                         </div>
                     </section>
                     
-                    </section>
                     <section id="Article" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
@@ -38,6 +37,7 @@ class Blog extends React.Component {
                             </header>
                             <Link to="/musterblogeintrag" className="link primary"></Link>
                         </article>
+                    </section>
                 </div>
             </Layout>
         )
