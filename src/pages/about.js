@@ -3,7 +3,8 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/azureorange_01.jpg'
+import pic02 from '../assets/images/pic01.jpg'
 
 class About extends React.Component {
     render() {
@@ -51,7 +52,7 @@ class About extends React.Component {
                     </div>
                     </section>
                      <section id="five" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Member</h3>
                                 <p>Mt-07 Rider</p>
