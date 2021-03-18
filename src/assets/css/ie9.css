@@ -76,9 +76,12 @@
 		}
 	#banner.wrapperino > spanx:before{
 		content: 'for fucks sake.';
-		animation: animate infinite 10s;
+		animation-name: dyntitle;
+		animation-iteration-count: infinite;
+		animation-duration: 10s;
+		animation-timing-function: ease;
 	}
-	@keyframes animate{
+	#banner > @keyframes dyntitle{
 		0%{content: 'CycleDistrict.';}
 		10%{content: 'fast.';}
 		20%{content: 'free.';}
