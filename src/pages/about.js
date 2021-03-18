@@ -20,6 +20,7 @@ const About = (props) => (
                     <p> </p>
                     <p> </p>
                     <h2>FOUNDERS</h2>
+                </div>
             </section>
             <section id="one" className="tiles">
                 <article>
