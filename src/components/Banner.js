@@ -6,7 +6,7 @@ const Banner = (props) => (
 	    <head>
 		<meta charset="utf-8">
 		<title>Changing Word Slider</title>
-		<link rel="stylesheet" href="dynamictitle.css">
+		<link rel="stylesheet" href="dynamictitle.css"></link>
 	    </head>
             <header class="wrapperino">
                 <h1x>ride <spanx></spanx></h1x>
