@@ -21,7 +21,7 @@ const About = (props) => (
                     <p> </p>
                     <h2>FOUNDERS</h2>
                     <ul className="actions">
-                        <li><Link to="/riders/azureorange" className="button next">AzureOrange</Link></li>
+                        <li><Link to="/ridersazureorange" className="button next">AzureOrange</Link></li>
                     </ul>
                 </div>
             </section>
