@@ -29,7 +29,7 @@ class About extends React.Component {
                             <h2>FOUNDERS</h2>
                         </div>
                     </section>
-                    <section id="one" className="tiles">
+                    <section id="two" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>AzureOrange</h3>
