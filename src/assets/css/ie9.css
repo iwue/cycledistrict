@@ -74,6 +74,18 @@
 			max-height: none;
 			min-height: 0;
 		}
+	spanx:before{
+		content: 'for fucks sake.';
+		animation: animate infinite 10s;
+	}
+	@keyframes animate{
+		0%{content: 'CycleDistrict.';}
+		10%{content: 'fast.';}
+		20%{content: 'free.';}
+		30%{content: 'trashy.';}
+		40%{content: 'CycleDistrict.';}
+		100%{content: 'CycleDistrict.';}
+	}
 
 /* Contact */
 
