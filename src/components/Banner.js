@@ -6,10 +6,10 @@ const Banner = (props) => (
 	    <head>
 		<link rel="stylesheet" href="dynamictitle.css"></link>
 	    </head>
-            <header class="wrapperino">
+            <header rel="stylesheet" href="dynamictitle.css" class="wrapperino">
                 <h1x>ride <spanx></spanx></h1x>
             </header>
-		<div class="wrapperino">
+		<div className="wrapperino">
 			<h1x>ride <spanx></spanx></h1x>
 			<p>A group of young and motivated <b>Motorcyclists</b> 
 			(EN: <sub>NOUN SINGULAR</sub> Motorcyclist, <sub>IPA</sub>: [ˈmoʊtɚˌsaɪ.klɪst]:
