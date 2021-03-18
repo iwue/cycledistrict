@@ -6,18 +6,9 @@ const Banner = (props) => (
 	    <head>
 		<link rel="stylesheet" href="dynamictitle.css"></link>
 	    </head>
-            <header rel="stylesheet" href="dynamictitle.css" class="wrapperino">
-                <h1x>ride <spanx></spanx></h1x>
+            <header className="wrapperino">
+                <h1>ride <spanx></spanx></h1>
             </header>
-		<div className="wrapperino">
-			<h1x>ride <spanx></spanx></h1x>
-			<p>A group of young and motivated <b>Motorcyclists</b> 
-			(EN: <sub>NOUN SINGULAR</sub> Motorcyclist, <sub>IPA</sub>: [ˈmoʊtɚˌsaɪ.klɪst]:
-			A person willing to take a container of flammable liquid,
-			place it on top of a hot moving engine
-			and then put the whole lot between their legs.)
-			</p>
-		</div>
             <div className="content">
                 <p>
                 A group of young and motivated <b>Motorcyclists</b> 
