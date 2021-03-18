@@ -3,8 +3,7 @@ import React from 'react'
 const Banner = (props) => (
     <div>
 	<link rel="stylesheet" href="dynamictitle.css">pumpernickel</link>
-    </div>
-    <div>
+
 	<section id="banner" className="major">
 		<div className="inner">
 
