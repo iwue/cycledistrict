@@ -32,7 +32,7 @@ class Blog extends React.Component {
                     <section id="Article" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Bikergruß</h3>
+                                <h3>Der Bikergruß</h3>
                                 <p>Wie er entstand und wie er angewendet wird.</p>
                             </header>
                             <Link to="/musterblogeintrag" className="link primary"></Link>
