@@ -20,10 +20,15 @@ const About = (props) => (
                     <p> </p>
                     <p> </p>
                     <h2>FOUNDERS</h2>
-                    <ul className="actions">
-                        <li><Link to="/ridersazureorange" className="button next">AzureOrange</Link></li>
-                    </ul>
-                </div>
+            </section>
+            <section id="one" className="tiles">
+                <article>
+                    <header className="major">
+                        <h3>AzureOrange</h3>
+                        <p>Dragstar Rider</p>
+                    </header>
+                    <Link to="/ridersazureorange" className="link primary"></Link>
+                </article>
             </section>
         </div>
 
