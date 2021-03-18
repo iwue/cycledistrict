@@ -74,7 +74,7 @@
 			max-height: none;
 			min-height: 0;
 		}
-	spanx:before{
+	#banner.wrapperino > spanx:before{
 		content: 'for fucks sake.';
 		animation: animate infinite 10s;
 	}
