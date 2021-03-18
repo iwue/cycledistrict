@@ -9,7 +9,6 @@ const Banner = (props) => (
             </header>
 	
             <div className="content">
-                <p></p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Get Ridin'</a></li>
                 </ul>
