@@ -16,9 +16,11 @@ const About = (props) => (
                     <header className="major">
                         <h1>About Us</h1>
                     </header>
-                    <p>We are ...</p>
+                    <p>We are just a bunch of young Swiss motorcylists.</p>
                     <p> </p>
                     <p> </p>
+                    <h2>FOUNDERS</h2>
+                    <h3>Azure Orange</h3>
                 </div>
             </section>
         </div>
