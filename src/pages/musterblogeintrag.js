@@ -14,7 +14,7 @@ const Muster = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Bikergruß</h1>
+                        <h1>Der Bikergruß</h1>
                         <h4>by AzureOrange, 18<sup>th</sup> March 2021</h4>
                     </header>
                     <p>
