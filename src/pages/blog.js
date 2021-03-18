@@ -44,11 +44,4 @@ class Blog extends React.Component {
     }
 }
 
-const Blog = (props) => (
-    <Layout>
-        
-
-    </Layout>
-)
-
 export default Blog
