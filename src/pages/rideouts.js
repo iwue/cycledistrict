@@ -27,5 +27,4 @@ const Rideouts = (props) => (
     </Layout>
 )
 
-
 export default Rideouts
