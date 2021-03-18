@@ -24,7 +24,7 @@ body{
 	line-height: 35px;
 }
 spanx:before{
-	content: '';
+	content: 'for fucks sake.';
 	animation: animate infinite 10s;
 }
 @keyframes animate{
