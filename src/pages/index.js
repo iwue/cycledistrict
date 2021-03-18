@@ -55,7 +55,7 @@ class HomeIndex extends React.Component {
                                 <h3>Riders</h3>
                                 <p>Who is CycleDistrict East?</p>
                             </header>
-                            <Link to="/about" href="#two" className="link primary"></Link>
+                            <Link to="/about/#two" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
