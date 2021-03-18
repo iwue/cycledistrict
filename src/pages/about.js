@@ -28,8 +28,10 @@ class About extends React.Component {
                             <p> </p>
                         </div>
                     </section>
-                    <section id="two" className="tiles">
+                    <section id="two" className="Titless">
                         <h2>FOUNDERS</h2>
+                    </section>
+                    <section id="three" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>AzureOrange</h3>
