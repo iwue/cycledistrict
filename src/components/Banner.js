@@ -4,7 +4,7 @@ const Banner = (props) => (
     <head>
 	<link rel="stylesheet" href="dynamictitle.css">pumpernickel</link>
     </head>
-    <body>
+    <>
 	<section id="banner" className="major">
 		<div className="inner">
 
@@ -21,7 +21,7 @@ const Banner = (props) => (
 		    </div>
 		</div>
 	</section>
-    </body>
+    </>
 )
 
 export default Banner
