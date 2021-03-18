@@ -2,7 +2,7 @@ import React from 'react'
 
 const Banner = (props) => (
     <head>
-	<link rel="stylesheet" href="dynamictitle.css">
+	<link rel="stylesheet" href="dynamictitle.css">pumpernickel</link>
     </head>
     <section id="banner" className="major">
         <div className="inner">
