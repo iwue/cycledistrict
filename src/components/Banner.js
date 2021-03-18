@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Banner = (props) => (
-    <head>
+    <div>
 	<link rel="stylesheet" href="dynamictitle.css">pumpernickel</link>
-    </head>
-    <>
+    </div>
+    <div>
 	<section id="banner" className="major">
 		<div className="inner">
 
@@ -21,7 +21,7 @@ const Banner = (props) => (
 		    </div>
 		</div>
 	</section>
-    </>
+    </div>
 )
 
 export default Banner
