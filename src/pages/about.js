@@ -20,7 +20,9 @@ const About = (props) => (
                     <p> </p>
                     <p> </p>
                     <h2>FOUNDERS</h2>
-                    <h3>Azure Orange</h3>
+                    <ul className="actions">
+                        <li><Link to="/azureorange" className="button next">AzureOrange</Link></li>
+                    </ul>
                 </div>
             </section>
         </div>
