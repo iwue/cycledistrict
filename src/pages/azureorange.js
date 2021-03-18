@@ -19,7 +19,7 @@ const AzureOrange = (props) => (
                     </header>
                     <p>
                       <b>Name:</b> Aaron Züger<br/>
-                      <b>Age:</b> 23<br/>
+                      <b>Age:</b> 23 <br/>
                       <b>Motorcycle:</b> 98s Yamaha YVS 650 a<br/>
                       <b>Driving since:</b> May 2018<br/>
                     </p>
