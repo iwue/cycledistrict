@@ -32,7 +32,17 @@ module.exports = {
           omitKeys: ['xmlnsDc', 'xmlnsCc', 'xmlnsRdf', 'xmlnsSvg', 'xmlnsSodipodi', 'xmlnsInkscape']
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/intl`,
+        languages: [`de`, `en`],
+        defaultLanguage: `de`,
+        redirect: false,
+      },
     },  
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    'gatsby-plugin-netlify-cms',
   ],
 }
