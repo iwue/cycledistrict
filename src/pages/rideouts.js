@@ -30,4 +30,4 @@ const Rideouts = (props) => (
     </Layout>
 )
 
-export default About
+export default Rideouts
