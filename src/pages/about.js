@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import pic01 from '../assets/images/azureorange_01.jpg'
 import pic02 from '../assets/images/devinbrunner_01.jpg'
 import pic03 from '../assets/images/raphaeltruniger_01.jpg'
+import pic04 from '../assets/images/whatacruise_01.jpg'
 import pic99 from '../assets/images/pic01.jpg'
 
 class About extends React.Component {
@@ -71,13 +72,23 @@ class About extends React.Component {
                     </div>
                     </section>
                      <section id="five" className="tiles">
+
+                        <article style={{backgroundImage: `url(${pic04})`}}>
+                            <header className="major">
+                                <h3>Isaac Würth</h3>
+                                <p>CBR 600 Rider</p>
+                            </header>
+                            <Link to="/whatacruise" className="link primary"></Link>
+                        </article>
+
                         <article style={{backgroundImage: `url(${pic99})`}}>
                             <header className="major">
                                 <h3>Member</h3>
                                 <p>Mt-07 Rider</p>
                             </header>
-                            <Link to="/ridersazureorange" className="link primary"></Link>
+                            <Link to="/generic" className="link primary"></Link>
                         </article>
+
                     </section>
                 </div>
 
