@@ -9,6 +9,9 @@ const Footer = (props) => (
             <ul className="copyright">
                 <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
             </ul>
+            <ul className="index">
+                <li><Link onClick={props.onToggleMenu} to="/landing">Landing</Link></li><li><Link onClick={props.onToggleMenu} to="/generic">Generic</Link></li><li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li>
+            </ul>
         </div>
     </footer>
 )
