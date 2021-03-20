@@ -1,4 +1,7 @@
 import React from 'react'
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
 
 var terms = ["term 1", "term 2", "term 3"];
 
