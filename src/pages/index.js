@@ -81,7 +81,7 @@ class HomeIndex extends React.Component {
 		            (EN: [NOUN] [SINGULAR] Motorcyclist, IPA: [ˈmoʊtɚˌsaɪ.klɪst]:
                             A person willing to take a container of flammable liquid, place it on top of a hot moving engine and then put the whole lot between their legs.).</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button next">Get Ridin'</Link></li>
+                                <li><Link to="/testsite" className="button next">Get Ridin'</Link></li>
                             </ul>
                         </div>
                     </section>
