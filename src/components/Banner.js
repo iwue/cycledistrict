@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const textArray = ['eat', 'sleep', 'drink', 'snore', 'foo', 'buzz', 'whatever'];
+const textArray = ['for fuck\'s sake', 'fast', 'free', 'trashy', 'CycleDistrict', 'CycleDistrict'];
 
 class Banner extends Component {
   constructor() {
@@ -23,10 +23,20 @@ class Banner extends Component {
     let textThatChanges = textArray[this.state.textIdx % textArray.length];
 
     return (
-      <section>
-        <h1>Hello, my name is Barry Allen</h1>
-        <p>I like to <span>{textThatChanges}</span></p>
-      </section>
+	<section id="banner" className="major">
+		<div className="inner">
+
+		    <header className="wrapperino">
+			<h1>Let's ride <span>{textThatChanges}</span></h1>
+		    </header>
+			
+		    <div className="content">
+			<ul className="actions">
+			    <li><a href="#one" className="button next scrolly">Get Ridin'</a></li>
+			</ul>
+		    </div>
+		</div>
+	</section>
     )
   }
 }
