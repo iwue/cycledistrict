@@ -1,7 +1,5 @@
 import React from 'react'
 
-const Banner = (props) => (
-	
 var terms = ["term 1", "term 2", "term 3"];
 
 function rotateTerm() {
@@ -10,6 +8,8 @@ function rotateTerm() {
               .delay(2000).fadeOut(200, rotateTerm);
 }
 $(rotateTerm);
+
+const Banner = (props) => (
 
 	<section id="banner" className="major">
 		<div className="inner">
