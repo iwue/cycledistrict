@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import './Home.css';
 
 const textArray = ['eat', 'sleep', 'drink', 'snore', 'foo', 'buzz', 'whatever'];
 
-class Home extends Component {
+class Banner extends Component {
   constructor() {
     super();
     this.state = { textIdx: 0 };
@@ -52,5 +51,8 @@ const Banner = (props) => (
 		</div>
 	</section>
 )
-*/
+
 export default Banner
+*/
+
+export default Banner;
