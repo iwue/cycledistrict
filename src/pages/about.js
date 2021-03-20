@@ -44,7 +44,7 @@ class About extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Aaron Züger</h3>
-                                <p>Classic Dragstar Rider</p>
+                                <p>Dragstar Classic Rider</p>
                             </header>
                             <Link to="/azureorange" className="link primary"></Link>
                         </article>
@@ -60,7 +60,7 @@ class About extends React.Component {
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Raphael Truniger</h3>
-                                <p>Unicorn Slider?</p>
+                                <p>MT-07 Rider</p>
                             </header>
                             <Link to="/earthlinguprear" className="link primary"></Link>
                         </article>
