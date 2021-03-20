@@ -16,7 +16,7 @@ const Banner = (props) => (
 
 		    <header className="wrapperino">
 			/* <h1>Let's ride <spanx>for fuck's sake </spanx></h1> */
-			<h1>ride <span id="rotate">this</span>.</p>
+			<h1>ride <span id="rotate">this</span>.</h1>
 		    </header>
 			
 		    <div className="content">
