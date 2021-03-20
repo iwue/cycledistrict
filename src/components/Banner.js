@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const textArray = ['for fuck\'s sake', 'fast', 'free', 'trashy', 'CycleDistrict', 'CycleDistrict'];
+const textArray = ['dangerous', 'fast', 'free', 'trashy', 'CycleDistrict', 'CycleDistrict'];
 
 class Banner extends Component {
   constructor() {
@@ -12,7 +12,7 @@ class Banner extends Component {
     this.timeout = setInterval(() => {
       let currentIdx = this.state.textIdx;
       this.setState({ textIdx: currentIdx + 1 });
-    }, 1500);
+    }, 2500);
   }
 
   componentDidUnmount() {
@@ -20,14 +20,15 @@ class Banner extends Component {
   }
 
   render() {
-    let textThatChanges = textArray[this.state.textIdx % textArray.length];
+    let DynamicText = textArray[this.state.textIdx % textArray.length];
 
     return (
 	<section id="banner" className="major">
 		<div className="inner">
 
 		    <header className="wrapperino">
-			<h1>Let's ride <span>{textThatChanges}</span></h1>
+	    		<h1>For fuck's sake</h1>
+			<h1>Let's ride <span>{DynamicText}</span></h1>
 		    </header>
 			
 		    <div className="content">
