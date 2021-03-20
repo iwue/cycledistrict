@@ -1,24 +1,46 @@
-import React from 'react'
-import $ from 'jquery';
-window.jQuery = $;
-window.$ = $;
+import React, { Component } from 'react';
+import './Home.css';
 
-var terms = ["term 1", "term 2", "term 3"];
+const textArray = ['eat', 'sleep', 'drink', 'snore', 'foo', 'buzz', 'whatever'];
 
-function rotateTerm() {
-  var ct = $("#rotate").data("term") || 0;
-  $("#rotate").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).fadeIn()
-              .delay(2000).fadeOut(200, rotateTerm);
+class Home extends Component {
+  constructor() {
+    super();
+    this.state = { textIdx: 0 };
+  }
+
+  componentDidMount() {
+    this.timeout = setInterval(() => {
+      let currentIdx = this.state.textIdx;
+      this.setState({ textIdx: currentIdx + 1 });
+    }, 1500);
+  }
+
+  componentDidUnmount() {
+    clearInterval(this.timeout);
+  }
+
+  render() {
+    let textThatChanges = textArray[this.state.textIdx % textArray.length];
+
+    return (
+      <section>
+        <h1>Hello, my name is Barry Allen</h1>
+        <p>I like to <span>{textThatChanges}</span></p>
+      </section>
+    )
+  }
 }
-$(rotateTerm);
 
+
+/*
 const Banner = (props) => (
 
 	<section id="banner" className="major">
 		<div className="inner">
 
 		    <header className="wrapperino">
-			/* <h1>Let's ride <spanx>for fuck's sake </spanx></h1> */
+			<h1>Let's ride <spanx>for fuck's sake </spanx></h1>
 			<h1>ride <span id="rotate">this</span>.</h1>
 		    </header>
 			
@@ -30,5 +52,5 @@ const Banner = (props) => (
 		</div>
 	</section>
 )
-
+*/
 export default Banner
