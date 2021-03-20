@@ -8,24 +8,24 @@ const TestSite = () => (
                         <meta charset="utf-8"> 
                         <title>Changing Word Slider</title> 
 
-                        <style> 
-                         .wordchanger:before{ 
-                          content: 'content.'; 
-                          animation-name: mywordchange; 
-                          animation-duration: 10s; 
-                          animation-iteration-count: infinite; 
-                          animation-timing-function: ease; 
-                         } 
+                        <style></style>
+                          .wordchanger:before{
+                          content: 'content.';
+                          animation-name: mywordchange;
+                          animation-duration: 10s;
+                          animation-iteration-count: infinite;
+                          animation-timing-function: ease;
+                          }
 
-                         @keyframes mywordchange{ 
-                          0%{content: 'CycleDistrict.';} 
-                          10%{content: 'fast.';} 
-                          20%{content: 'free.';} 
-                          30%{content: 'trashy.';} 
-                          40%{content: 'CycleDistrict.';} 
-                          100%{content: 'CycleDistrict.';} 
-                         } 
-                        </style> 
+                          @keyframes mywordchange{
+                          0%{content: 'CycleDistrict.';}
+                          10%{content: 'fast.';}
+                          20%{content: 'free.';}
+                          30%{content: 'trashy.';}
+                          40%{content: 'CycleDistrict.';}
+                          100%{content: 'CycleDistrict.';}
+                          }
+
                 </head> 
 
                 <body> 
