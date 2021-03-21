@@ -112,37 +112,37 @@
 
     &:nth-child(6n - 5) {
       &:before {
-        background-color: _palette(relaxing1);
+        background-color: _palette(retrodark1);
       }
     }
 
     &:nth-child(6n - 4) {
       &:before {
-        background-color: _palette(relaxing2);
+        background-color: _palette(retrodark2);
       }
     }
 
     &:nth-child(6n - 3) {
       &:before {
-        background-color: _palette(relaxing3);
+        background-color: _palette(retrodark3);
       }
     }
 
     &:nth-child(6n - 2) {
       &:before {
-        background-color: _palette(relaxing4);
+        background-color: _palette(retrodark4);
       }
     }
 
     &:nth-child(6n -1) {
       &:before {
-        background-color: _palette(relaxing5);
+        background-color: _palette(retrodark5);
       }
     }
 
     &:nth-child(6n) {
       &:before {
-        background-color: _palette(relaxing6);
+        background-color: _palette(retrodark6);
       }
     }
   }
