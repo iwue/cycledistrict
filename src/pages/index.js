@@ -62,7 +62,7 @@ class HomeIndex extends React.Component {
                                 <h3>Rideouts</h3>
                                 <p>When will we be seen?</p>
                             </header>
-                            <Link to="/rideouts" className="link secondary"></Link>
+                            <Link to="/rideouts" className="link primary"></Link>
                         </article>
 			<article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
