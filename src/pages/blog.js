@@ -23,12 +23,6 @@ class Blog extends React.Component {
                 <div id="main" className="alt">
                     <section id="one">
                         <div className="inner">
-                            <header className="major">
-                                <h1>Blog</h1>
-                            </header>
-                            <p> </p>
-                            <p> </p>
-                            <p> </p>
                         </div>
                     </section>
                     
