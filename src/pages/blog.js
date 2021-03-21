@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import BannerBlog from '../components/BannerLanding'
+import BannerBlog from '../components/BannerBlog'
 
 import pic01 from '../assets/images/musterblogeintrag.jpg'
 
