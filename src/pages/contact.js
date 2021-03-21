@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerRideouts from '../components/BannerRideouts'
+import BannerContact from '../components/BannerContact'
 import Contact from './Contact'
 
 const ContactPage = (props) => (
@@ -11,7 +11,7 @@ const ContactPage = (props) => (
             <meta name="description" content="Rideouts Page" />
         </Helmet>
     
-        <BannerRideouts />
+        <BannerContact />
 
         <div id="main" className="alt">
             <section id="one">
