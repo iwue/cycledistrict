@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import BannerAbout from '../components/BannerAbout'
 
 import pic01 from '../assets/images/azureorange_01.jpg'
 import pic02 from '../assets/images/devinbrunner_01.jpg'
@@ -20,19 +21,11 @@ class About extends React.Component {
                     <title>About</title>
                     <meta name="description" content="About Page" />
                 </Helmet>
+            
+                <BannerAbout />
 
                 <div id="main" className="alt">
-                    <section id="one">
-                        <div className="inner">
-                            <header className="major">
-                                <h1>About Us</h1>
-                            </header>
-                            <p>We are just a bunch of young Swiss motorcylists.</p>
-                            <p> </p>
-                            <p> </p>
-                        </div>
-                    </section>
-                    <section id="two" className="Titless">
+                    <section id="one" className="Titless">
                     <div className="inner">
                             <header className="major">
                                 <h1>Our Riders</h1>
@@ -40,7 +33,7 @@ class About extends React.Component {
                         <h2>FOUNDERS</h2>
                     </div>
                     </section>
-                    <section id="three" className="tiles">
+                    <section id="two" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Aaron Züger</h3>
@@ -66,7 +59,7 @@ class About extends React.Component {
                         </article>
                     
                     </section>
-                    <section id="four" className="Titless">
+                    <section id="three" className="Titless">
                     <div className="inner">
                         <h2>MEMBERS</h2>
                     </div>
