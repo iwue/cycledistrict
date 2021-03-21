@@ -2,8 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerRideouts from '../components/BannerRideouts'
+import Contact from './Contact'
 
-const Contact = (props) => (
+const ContactPage = (props) => (
     <Layout>
         <Helmet>
             <title>Rideouts</title>
@@ -15,11 +16,7 @@ const Contact = (props) => (
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
-                    <h2>Group Rideouts - Annual</h2>
-                    <p>At the following dates an annual group rideout is planned.</p>
-                    <p>1<sup>st</sup> Sunday of May</p>
-                    <p>1<sup>st</sup> Sunday of August</p>
-                    <p>1<sup>st</sup> Sunday of November</p>
+                    <Contact />
                 </div>
             </section>
         </div>
@@ -27,4 +24,4 @@ const Contact = (props) => (
     </Layout>
 )
 
-export default Contact
+export default ContactPage
