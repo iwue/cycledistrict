@@ -64,13 +64,13 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+			{/* <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Placeholder</h3>
                                 <p>Ipsum dolor sit amet</p>
                             </header>
                             <Link to="/rideouts" className="link primary"></Link>
-                        </article>
+                        </article> */}
                     </section>
                     <section id="two">
                         <div className="inner">
