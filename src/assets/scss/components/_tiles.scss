@@ -112,37 +112,37 @@
 
     &:nth-child(6n - 5) {
       &:before {
-        background-color: _palette(bluemoon1);
+        background-color: _palette(relaxing1);
       }
     }
 
     &:nth-child(6n - 4) {
       &:before {
-        background-color: _palette(bluemoon2);
+        background-color: _palette(relaxing2);
       }
     }
 
     &:nth-child(6n - 3) {
       &:before {
-        background-color: _palette(bluemoon3);
+        background-color: _palette(relaxing3);
       }
     }
 
     &:nth-child(6n - 2) {
       &:before {
-        background-color: _palette(bluemoon4);
+        background-color: _palette(relaxing4);
       }
     }
 
     &:nth-child(6n -1) {
       &:before {
-        background-color: _palette(bluemoon5);
+        background-color: _palette(relaxing5);
       }
     }
 
     &:nth-child(6n) {
       &:before {
-        background-color: _palette(bluemoon6);
+        background-color: _palette(relaxing6);
       }
     }
   }
