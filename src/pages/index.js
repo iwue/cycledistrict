@@ -8,8 +8,8 @@ import pic01 from '../assets/images/motorcycle_01.jpg'
 import pic02 from '../assets/images/motorcycle_02.jpg'
 import pic03 from '../assets/images/motorcycle_03.jpg'
 import pic04 from '../assets/images/motorcycle_04.jpg'
-import pic05 from '../assets/images/motorcycle_05.jpg'
-import pic06 from '../assets/images/motorcycle_06.jpg'
+import pic05 from '../assets/images/motorcycle_06.jpg'
+import pic06 from '../assets/images/motorcycle_05.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -59,15 +59,15 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Placeholder</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Rideouts</h3>
+                                <p>When will we be seen?</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Rideouts</h3>
-                                <p>When will we be seen?</p>
+                                <h3>Placeholder</h3>
+                                <p>Ipsum dolor sit amet</p>
                             </header>
                             <Link to="/rideouts" className="link primary"></Link>
                         </article>
