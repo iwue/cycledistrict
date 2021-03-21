@@ -67,6 +67,15 @@
       width: 100%;
       z-index: 4;
     }
+    .link.secondary {
+      border: 0;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 160%;
+      z-index: 4;
+    }
 
     &:before {
       @include vendor('transition', 'opacity 0.5s ease');
