@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import BannerLanding from '../components/BannerLanding'
 
 import pic01 from '../assets/images/musterblogeintrag.jpg'
 
@@ -16,6 +17,8 @@ class Blog extends React.Component {
                     <title>Blog</title>
                     <meta name="description" content="Blog Main Page" />
                 </Helmet>
+            
+                <BannerLanding />
 
                 <div id="main" className="alt">
                     <section id="one">
