@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerContact from '../components/BannerContact'
-import Contact from './components/Contact'
+import Contact from '../components/Contact'
 
 const ContactPage = (props) => (
     <Layout>
