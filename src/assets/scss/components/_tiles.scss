@@ -134,15 +134,17 @@
       }
     }
 
-    &:nth-child(6n - 1) {
+    &:nth-child(6n -1) {
       &:before {
         background-color: _palette(bluemoon5);
+        width: 160%;
       }
     }
 
     &:nth-child(6n) {
       &:before {
         background-color: _palette(accent3);
+        width: 0%;
       }
     }
   }
