@@ -67,15 +67,6 @@
       width: 100%;
       z-index: 4;
     }
-    .link.secondary {
-      border: 0;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 160%;
-      z-index: 4;
-    }
 
     &:before {
       @include vendor('transition', 'opacity 0.5s ease');
@@ -146,14 +137,12 @@
     &:nth-child(6n -1) {
       &:before {
         background-color: _palette(bluemoon5);
-        width: 160%;
       }
     }
 
     &:nth-child(6n) {
       &:before {
-        background-color: _palette(accent3);
-        width: 0%;
+        background-color: _palette(bluemoon6);
       }
     }
   }
