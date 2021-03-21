@@ -27,8 +27,7 @@ class Banner extends Component {
 		<div className="inner">
 
 		    <header className="wrapperino">
-	    		<h1>For fuck's sake</h1>
-			<h1>Let's ride <span>{DynamicText}</span></h1>
+	    		<h3>For fuck's sake</h3> <h1>Let's ride <span>{DynamicText}</span></h1>
 		    </header>
 			
 		    <div className="content">
