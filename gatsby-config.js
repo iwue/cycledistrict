@@ -25,24 +25,14 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-react-svg",
-      options: {
-        rule: {
-          include: /images\/.*\.svg/, // See below to configure properly
-          omitKeys: ['xmlnsDc', 'xmlnsCc', 'xmlnsRdf', 'xmlnsSvg', 'xmlnsSodipodi', 'xmlnsInkscape']
-        }
-      }
-    },
-    {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: `${__dirname}/src/intl`,
-        languages: [`de`, `en`],
+        languages: [`de`, `en`, `ch`],
         defaultLanguage: `de`,
         redirect: false,
       },
-    },  
+    },
     'gatsby-plugin-offline',
-    'gatsby-plugin-netlify-cms',
   ],
 }

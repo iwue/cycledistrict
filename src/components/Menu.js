@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import Language  from './Language'
 
 const Menu = (props) => (
     <nav id="menu">
@@ -15,6 +16,7 @@ const Menu = (props) => (
                 <li><a href="#" className="button special fit">Get Started</a></li>
                 <li><a href="#" className="button fit">Log In</a></li>
             </ul>
+            <Language />
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
     </nav>
