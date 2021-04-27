@@ -104,12 +104,12 @@
 			}
 		}
 
-		&.style1 { &:after { background-color: _palette(accent1); } }
-		&.style2 { &:after { background-color: _palette(accent2); } }
-		&.style3 { &:after { background-color: _palette(accent3); } }
-		&.style4 { &:after { background-color: _palette(accent4); } }
-		&.style5 { &:after { background-color: _palette(accent5); } }
-		&.style6 { &:after { background-color: _palette(accent6); } }
+		&.style1 { &:after { background-color: _palette(matte1); } }
+		&.style2 { &:after { background-color: _palette(matte2); } }
+		&.style3 { &:after { background-color: _palette(matte3); } }
+		&.style4 { &:after { background-color: _palette(matte4); } }
+		&.style5 { &:after { background-color: _palette(matte5); } }
+		&.style6 { &:after { background-color: _palette(matte6); } }
 
 		.body.is-loading & {
 			&:after {
