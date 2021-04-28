@@ -30,18 +30,74 @@
 
 // Palette.
 	$palette: (
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
-		fg:					#ffffff,
-		fg-bold:			#ffffff,
+		bg:					#3B3C37, //242943, //https://www.schemecolor.com/retro-black-and-white.php
+		bg-alt:				#545450, //2a2f4a,
+		fg:					#FFFAF0, //ffffff,
+		fg-bold:			#FFFAF0, //ffffff,
 		fg-light:			rgba(244,244,255,0.2),
 		border:				rgba(212,212,255,0.1),
 		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#9bf1ff,
+		highlight:			#DA9F5F, //9bf1ff, //https://www.schemecolor.com/vintage-truth-2.php
 		accent1:			#6fc3df,
 		accent2:			#8d82c4,
 		accent3:			#ec8d81,
 		accent4:			#e7b788,
 		accent5:			#8ea9e8,
-		accent6:			#87c5a4
+		accent6:			#87c5a4,
+	//Dark
+		//B&W, Blueish
+		matte1:				#0C0E0C, //https://www.schemecolor.com/dark-matte.php
+		matte2:				#191919,
+		matte3:				#2D2D2D,
+		matte4:				#3B444F,
+		matte5:				#303A48,
+		matte6:				#252D3B,
+		gunmetal1:			#010100, //https://www.schemecolor.com/gunmetal-grey-black-gradient.php
+		gunmetal2:			#0F1314,
+		gunmetal3:			#1D2429,
+		gunmetal4:			#242C30,
+		gunmetal5:			#293438,
+		//Color
+		retrodark1:			#5B4428, //https://www.schemecolor.com/dark-colors-of-retro.php
+		retrodark2:			#736449,
+		retrodark3:			#415B4A,
+		retrodark4:			#2D484A,
+		retrodark5:			#1F2742,
+		retrodark6:			#702833,
+	//Blue
+		bluemoon1:			#756ea7, //https://www.schemecolor.com
+		bluemoon2:			#af98c7,
+		bluemoon3:			#271549,
+		bluemoon4:			#bcadd4,
+		bluemoon5:			#8381bf,
+		bluemoon6:			#512c98,
+	//Pastel
+		relaxing1:			#B6A38F, //https://www.schemecolor.com/relaxing-colors-for-the-bedroom.php
+		relaxing2:			#D8C8B9,
+		relaxing3:			#E2DDDA,
+		relaxing4:			#D7D0CA,
+		relaxing5:			#CAC2B1,
+		relaxing6:			#AFA999,
+		chaos1:				#D1D7BB, //https://www.schemecolor.com/chaos-rules.php
+		chaos2:				#A9C6B4,
+		chaos3:				#DDD4A1,
+		chaos4:				#B6B6A5,
+		chaos5:				#D7C8B8,
+		chaos6:				#AAB7BE,
+		modern1:			#CECFC7, //https://www.schemecolor.com/modern-neutrals.php
+		modern2:			#D7DDD7,
+		modern3:			#ECE7E2,
+		modern4:			#D0C1C2,
+		modern5:			#DEDACD,
+		modern6:			#D3CCC0,
+		forest1:			#B7C68B, //https://www.schemecolor.com/forest-color.php
+		forest2:			#F4F0CB,
+		forest3:			#DED29E,
+		forest4:			#B3A580,
+		forest5:			#A29574,
+		vintage1950s1:			#D0C195, //https://www.schemecolor.com/1950s-vintage-color-combination.php
+		vintage1950s2:			#E2D9B3,
+		vintage1950s3:			#ECEAD3,
+		vintage1950s4:			#C9DCAF,
+		vintage1950s5:			#BF9E86,
 	);
